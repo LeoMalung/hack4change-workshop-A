@@ -1,6 +1,5 @@
 /// For this application, we're using a very simple structure. The API is defined entirely in this file, along with all the server settings.
 /// If your application is more complex then feel free to reorganize or replace this as needed.
-
 using Hack4Change.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
