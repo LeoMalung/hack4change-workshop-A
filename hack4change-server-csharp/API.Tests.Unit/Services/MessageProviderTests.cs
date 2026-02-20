@@ -1,4 +1,4 @@
-﻿namespace Hack4Change.API.Tests.Services;
+﻿namespace Hack4Change.API.Tests.Unit.Services;
 
 using Xunit;
 using Hack4Change.API.Services;

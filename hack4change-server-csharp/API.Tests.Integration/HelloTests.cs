@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
-
-namespace Hack4Change.API.Tests.Integration;
+﻿namespace Hack4Change.API.Tests.Integration;
 
 /// <summary>
 /// This is a simple test class to demonstrate how integration tests can be written for this server.
