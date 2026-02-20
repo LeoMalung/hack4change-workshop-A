@@ -13,11 +13,7 @@ public class HelloTests
     [Fact]
     public async Task GET_ReturnsSuccessCode()
     {
-        await using var application = new WebApplicationFactory<Program>();
-
-        using var client = application.CreateClient();
-
-        var response = await client.GetAsync(PATH);
+        var response = await WebClientHelper.GetResponse(PATH);
 
         Assert.True(response.IsSuccessStatusCode);
     }
@@ -25,11 +21,7 @@ public class HelloTests
     [Fact]
     public async Task GET_ReturnsWelcomeMessage()
     {
-        await using var application = new WebApplicationFactory<Program>();
-
-        using var client = application.CreateClient();
-
-        var response = await client.GetAsync(PATH);
+        var response = await WebClientHelper.GetResponse(PATH);
 
         var text = await response.Content.ReadAsStringAsync();
 
