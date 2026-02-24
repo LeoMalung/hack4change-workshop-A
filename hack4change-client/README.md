@@ -5,7 +5,6 @@ This is the sample client repository for the first Hack4Change workshop. Combine
 To start working with this client project, do the following:
 
 - Download Node.js with npm from https://nodejs.org/en/download and follow the instructions to install it. This project was created using Node version 22.22.0, but should work with any recent version of Node.
-- Copy this folder to a convenient location, ie. a "project" folder.
 - From this directory, run the following command in a command line: `npm install`. This will install all of the project's dependencies.
 - Use the scripts listed below to run and test the client.
 
