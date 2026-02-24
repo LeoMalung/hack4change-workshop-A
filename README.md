@@ -1,3 +1,4 @@
+New
 This repository provides some sample code that you can use to build a simple client/server application. We'll be providing a more mature version of this repository with contents more specifically adapted for the theme of the hackathon closer to the event. Until then, you can use this repository to practice with something similar to what we'll be providing on the day of the event. Keep in mind that you don't have to use the sample code that we're providing to build your solution - this is here to help you get started faster, not to restrict you, and if you're more comfortable doing something else then you should feel free to do so.
 
 # Using this repository
